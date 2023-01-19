@@ -69,5 +69,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 -D: devDependencies: Chỉ chạy trên môi trường dev sau này build product sẽ không có những package này# learn-reactjs
+
+-useState là hook cơ bản reactjs
+-react router dom: để chuyển hướng mà không cần load lại trang
+-redux: store quản lý trạng thái
+-actions: chứa nhưng hàm đưa tới redux để xữ lí
+-reducers: đơn vị phụ trách xữ lí actions ở trên.
+//combineReducers: để gom nhóm tất cả reducer
+//applyMiddleware: để sử dụng middleware cho redux
+
+//useSelector: lấy dữ liệu từ redux
+//useDispatch: mang action đi tới redux
+
+object-cover: ưu tiên kích thước hơn. Nó chấp nhận mất một phần hình để vừa vặn về kích thước
+
+Navlink: khác thẻ a ở chỗ hỗ trợ trả về giá trị boolean khi active
