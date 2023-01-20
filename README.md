@@ -82,6 +82,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 //useSelector: lấy dữ liệu từ redux
 //useDispatch: mang action đi tới redux
 
-object-cover: ưu tiên kích thước hơn. Nó chấp nhận mất một phần hình để vừa vặn về kích thước
+-object-cover: ưu tiên kích thước hơn. Nó chấp nhận mất một phần hình để vừa vặn về kích thước
 
-Navlink: khác thẻ a ở chỗ hỗ trợ trả về giá trị boolean khi active
+-Navlink: khác thẻ a ở chỗ hỗ trợ trả về giá trị boolean khi active
+
+-class flex-none: giúp thẻ đó không phải chịu ảnh hưởng của flex
+
+-Muốn lưu những biến nào, state nào dưới local thì dùng redux-persist và config tại file rootReducer.js
+
+-Bức thư là actions, người đưa thư là Dispatch
