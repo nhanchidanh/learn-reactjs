@@ -89,6 +89,7 @@ const Slider = () => {
     if (item?.type === 1) {
       //luu id vao redux
       dispatch(actions.setCurSongId(item.encodeId));
+      dispatch(actions.play(true));
     }
   };
 
